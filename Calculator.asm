@@ -15,8 +15,8 @@
 .text
 Main:
 	# GET INPUT
-	la		$a0, First_Prompt		# Load pointer First_Prompt into $a0
-	la		$a1, First_Input		# Load pointer First_Input into $a1
+	la	$a0, First_Prompt			# Load pointer First_Prompt into $a0
+	la	$a1, First_Input			# Load pointer First_Input into $a1
 	jal 	GetInput				# Jump to procedure printInputStr1
 	
 	# GET OPERATOR
